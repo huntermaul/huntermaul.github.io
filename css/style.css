@@ -1,16 +1,3 @@
-a:link {
-    color: #73896C;
-}
-a:hover {
-    color: #B3A980;
-}
-a:visited {
-    color: #22496D;
-}
-hr {
-    border: 2px solid #22496D;
-    border-radius: 1px;
-}
 h1 {
     font-size: 60px;
     font-family: "Century Gothic Pro", CenturyGothic, AppleGothic, sans-serif;
@@ -47,6 +34,9 @@ p {
     font-family: "Century Gothic Pro", CenturyGothic, AppleGothic, sans-serif;    
     font-weight: normal;
 }
+img {
+    border-radius: 10px;
+}
 #image {
     float: left;
     margin-top: 47px;
@@ -61,4 +51,17 @@ a {
     font-size: 18px;
     font-family: "Century Gothic Pro", CenturyGothic, AppleGothic, sans-serif;    
     font-weight: normal;
+}
+a:link {
+    color: #73896C;
+}
+a:hover {
+    color: #B3A980;
+}
+a:visited {
+    color: #22496D;
+}
+hr {
+    border: 2px solid #22496D;
+    border-radius: 1px;
 }
