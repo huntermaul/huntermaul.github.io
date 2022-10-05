@@ -71,16 +71,57 @@ a:visited {
 
 body {
     background-color: #fff;
+    width: 85%;
+    margin: 50px auto 50px auto;
 }
 
 .grid {
-    /* margin-top: 6em; */
-    margin: auto;
+    margin: 100px auto 200px auto;
     width: 60%;
-    height: 40%;
+    height: 80%;
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
+}
+
+.grid article {
+    padding-top: 3em;
+}
+
+.grid2 {
+    margin: 200px auto 200px auto;
+    width: 70%;
+    height: 80%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.grid2 article {
+    padding-top: 8em;
+}
+
+.audio {
+    margin: 80px auto auto auto;
+    text-align: center;
+    width: 80%;
+}
+
+.photo {
+    margin: 80px auto auto auto;
+    text-align: center;
+    width: 80%;
+}
+
+.photoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photoGrid img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 article p {
@@ -89,7 +130,7 @@ article p {
 }
 
 .navbar {
-    padding: 2em;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     position: sticky;
@@ -113,7 +154,7 @@ nav a {
 }
 
 hr {
-    border: 2px solid #22496D;
+    border: 1px solid #22496D;
     border-radius: 1px;
 }
 
@@ -137,6 +178,16 @@ hr {
     }
 
     .grid {
+        /* margin-top: 6em; */
+        margin: auto;
+        width: 60%;
+        height: 40%;
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .grid2 {
         /* margin-top: 6em; */
         margin: auto;
         width: 60%;
