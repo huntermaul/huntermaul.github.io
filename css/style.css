@@ -117,6 +117,10 @@ hr {
     border-radius: 1px;
 }
 
+#album {
+    width:600px;
+}
+
 @media screen and (max-width: 450px) {
 
     .navbar .centerLogo {
