@@ -89,7 +89,7 @@ body {
 }
 
 .grid2 {
-    margin: auto;
+    margin: 200px auto 200px auto;
     width: 70%;
     height: 80%;
     display:grid;
