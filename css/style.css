@@ -77,7 +77,7 @@ body {
 
 .grid {
     margin: 100px auto 200px auto;
-    width: 60%;
+    width: 70%;
     height: 80%;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -89,7 +89,7 @@ body {
 }
 
 .grid2 {
-    margin: 200px auto 200px auto;
+    margin: auto;
     width: 70%;
     height: 80%;
     display:grid;
@@ -99,6 +99,7 @@ body {
 
 .grid2 article {
     padding-top: 8em;
+    text-align: left;
 }
 
 .audio {
