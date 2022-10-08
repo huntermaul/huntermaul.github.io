@@ -4,32 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hunter Maul</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-      </div>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="./img/nameLogo.png" alt="NameLogo" class="centerLogo"></a>
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="audio.html">Audio</a>
+                </li>
+                <li>
+                    <a href="photography.html">Photography</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="about">
+        <h1>About</h1>
+        <div class="aboutGrid">
+            <div class="image">
+                <img src="./img/selfie1.png" alt="Hunter Maul">
+            </div>
+            <div class="copy">
+                <p>My name is Hunter. I am a designer 
+                    and artist based in Boulder, Colorado. 
+                    I am currently pursuing a Bachelor's degree in 
+                    <a href="https://www.colorado.edu/engineering/academics/degree-programs/creative-technology-design">
+                    Creative Technology and Design</a> with a minor in 
+                    <a href="https://www.colorado.edu/envd/">Environmental Design</a> 
+                    from the University of Colorado at Boulder. 
+                    <br>
+                    <br> 
+                    My mission is to leverage innovative technologies and design 
+                    to create a more sustainable and equitable world for all.
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <br>
+            <hr>
+            <h2>Contact me</h2>
+            <a href="mailto:">huntermaul2@gmail.com</a>
+        </div>
+    </main>
       
 </body>
 </html>

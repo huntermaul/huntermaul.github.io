@@ -125,6 +125,34 @@ body {
     height: 100%;
 }
 
+.about {
+    margin: 30px auto auto auto;
+    width: 80%;
+}
+
+.aboutGrid {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.about img{
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.about p {
+    padding-top: 6em;
+}
+
+.footer a {
+    font-size: 20px;
+}
+
 article p {
     margin: 0;
     text-align: left;
@@ -253,6 +281,15 @@ hr {
         hyphens: auto;
         margin-bottom: 10px;
     }
+
+    .aboutGrid {
+        flex-direction: column;
+    }
+
+    .about img {
+        margin: auto;
+        padding-left: 25px;
+   }
     
 }
 
