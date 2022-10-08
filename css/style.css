@@ -75,19 +75,6 @@ body {
     margin: 0px auto 50px auto;
 }
 
-.grid {
-    margin: 100px auto 200px auto;
-    width: 70%;
-    height: 80%;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-}
-
-.grid article {
-    padding-top: 1em;
-}
-
 .grid2 {
     margin: 150px auto 200px auto;
     width: 70%;
@@ -102,13 +89,17 @@ body {
 }
 
 .audio {
-    margin: 80px auto auto auto;
+    margin: 30px auto auto auto;
     text-align: center;
     width: 80%;
 }
 
+.audio iframe {
+    width: 100%;
+}
+
 .photo {
-    margin: 80px auto auto auto;
+    margin: 30px auto auto auto;
     text-align: center;
     width: 80%;
 }
@@ -142,10 +133,9 @@ body {
 
 .about img{
     width: 80%;
-    padding-bottom: 40px;
 }
 
-.about p {
+.about article {
     padding-top: 6em;
 }
 
@@ -180,17 +170,13 @@ nav {
 
 .links a {
     font-size: 20px;
-    color: black;
+    color: #73896C;
     text-decoration: none;
     padding: .5em 1em;
 }
 
 .links li a:hover {
-    color: #ffa329;
-}
-
-.logo {
-    position: left;
+    color: #B3A980;
 }
 
 hr {
@@ -237,30 +223,21 @@ hr {
         font-size: 16px;
     }
 
-    .grid {
-        width: 80%;
-        display:grid;
-        grid-template-columns: 1fr;
-    }
-
     .grid2 {
         width: 80%;
+        margin: 30px auto 100px auto;
         display:grid;
         grid-template-columns: 1fr;
-    }
-
-    .grid aside img {
-        width: 100%;
-        padding-right: 20px;
+        gap: 0;
     }
 
     .grid2 aside img {
         width: 100%;
+        padding-top: 5%;
         padding-right: 30px;
     }
 
     article p{
-        /* text-align: justify; */
         hyphens: auto;
         margin-bottom: 10px;
     }
@@ -280,7 +257,7 @@ hr {
     
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2500px) {
 
     .centerLogo {
         display: block;
