@@ -147,6 +147,7 @@ nav {
     display: flex;
     justify-content: space-around;
     text-align: left;
+    padding-top: 20px;
 }
 
 .links a {
@@ -185,12 +186,13 @@ hr {
 
     .navbar {
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 25px;
     }
 
     .links {
         display: flex;
         width: 100%;
+        padding-top: 10px;
     }
 
     .links ul {
@@ -204,11 +206,7 @@ hr {
     }
 
     .links li a {
-        font-size: 14px;
-    }
-
-    .links.active {
-        display: flex;
+        font-size: 16px;
     }
 
     .grid {
@@ -237,7 +235,6 @@ hr {
 
     .grid aside img {
         width: 100%;
-        padding-top: 5%;
         padding-right: 20px;
     }
 
