@@ -238,27 +238,15 @@ hr {
     }
 
     .grid {
-        /* margin-top: 6em; */
-        /* margin: auto; */
         width: 80%;
-        height: 40%;
         display:grid;
         grid-template-columns: 1fr;
-        gap: 50px;
     }
 
     .grid2 {
-        /* margin-top: 6em; */
-        /* margin: auto; */
         width: 80%;
         display:grid;
         grid-template-columns: 1fr;
-        gap: 0;
-        /* gap: 10px; */
-    }
-
-    .grid aside {
-        margin: 10% auto 10% auto;
     }
 
     .grid aside img {
@@ -268,18 +256,17 @@ hr {
 
     .grid2 aside img {
         width: 100%;
-        padding-top: 5%;
         padding-right: 30px;
     }
-    
-    /* hr {
-        display: none;
-    } */
 
     article p{
         /* text-align: justify; */
         hyphens: auto;
         margin-bottom: 10px;
+    }
+
+    .photoGrid {
+        grid-template-columns: 1fr;
     }
 
     .aboutGrid {
