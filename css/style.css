@@ -49,12 +49,43 @@ p {
     line-height: 24px;
 }
 
+label {
+    font-size: 16px;
+    font-family: century-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+}
+
 a {
     font-size: 16px;
     font-family: century-gothic, sans-serif;
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
+}
+
+button {
+    color: #73896C;
+}
+
+button {
+    background-color:#73896C; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: century-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#sillyStory {
+    margin-top: 8em;
 }
 
 a:link {
