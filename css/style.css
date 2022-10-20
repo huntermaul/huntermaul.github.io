@@ -71,6 +71,7 @@ button {
 
 button {
     background-color:#73896C; /* Green */
+    position: absolute;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -104,6 +105,41 @@ body {
     background-color: #fff;
     width: 85%;
     margin: 0px auto 50px auto;
+}
+
+#imageGallery {
+    width: 50%;
+}
+
+.full-img {
+    position: relative;
+    display: block;
+    width: 640px;
+    height: 480px;
+    padding-bottom: 10px;
+}
+
+.thumb-bar {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.thumb-bar img {
+    display: block;
+    width: 18%;
+    float: left;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 2px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 480px;
+    background-color: rgba(0,0,0,0);
 }
 
 .grid2 {
