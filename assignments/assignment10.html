@@ -19,6 +19,7 @@
 
       <script>
         //Number 1
+        console.log("Problem 1");
         const employees = [
             {
                 name : "Sam",
@@ -49,6 +50,7 @@
             website : "www.techstars,site",
             employees : employees
         }
+        console.log("Problem 2");
         console.log(company);
         //Number 3
         employees.push({
@@ -58,6 +60,7 @@
             salary : 25600,
             raiseEligible : false
         });
+        console.log("Problem 3");
         console.log(company.employees[3]);
         //Number 4 
         let salary = 0;
@@ -65,8 +68,10 @@
         for (let i = 0; i < company.employees.length; i++) {
             salary += company.employees[i].salary;
         }
+        console.log("Problem 4");
         console.log(salary);
         //Number 5
+        console.log("Problem 5");
         for (let i = 0; i < company.employees.length; i++) {
             if (company.employees[i].raiseEligible === true) {
                 company.employees[i].salary += company.employees[i].salary * 0.10;
@@ -76,6 +81,7 @@
             }
         }
         //Number 6
+        console.log("Problem 6");
         const workingFromHome = ['Anna','Sam'];
 
         for (let i = 0; i < company.employees.length; i++) {
