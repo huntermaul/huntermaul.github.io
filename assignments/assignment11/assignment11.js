@@ -16,8 +16,7 @@ async function getQuote() {
 
     let json_url = json_response.data.memes[meme].url;
 
-    displayQuote(json_url);
-    move();
+    move(json_url);
 }
 
 function getRandomInt(min, max) {
@@ -33,7 +32,7 @@ function displayQuote(url) {
 }
 
 var i = 0;
-function move() {
+function move(link) {
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("myBar");
@@ -43,7 +42,8 @@ function move() {
       if (width >= 100) {
         clearInterval(id);
         i = 0;
-      } else {
+        displayQuote(link);
+    } else {
         width++;
         elem.style.width = width + "%";
       }
