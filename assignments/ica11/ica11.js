@@ -9,6 +9,8 @@ async function getQuote() {
 
     let json_response = JSON.parse(response);
 
+    console.log(json_response);
+
     displayQuote(json_response['message']);
 }
 
