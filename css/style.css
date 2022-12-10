@@ -203,6 +203,13 @@ hr {
     width:600px;
 }
 
+.game {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+}
+
 button {
     font-family: century-gothic, sans-serif;
     font-size: 30px;
