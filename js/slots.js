@@ -26,7 +26,6 @@ function shuffle() {
 }
 
 function getShirt() {
-    console.log("beef");
     let shirtNumber = getRandomInt(0,shirtsArray.length);
 
     let image = document.getElementById("image");
@@ -35,7 +34,7 @@ function getShirt() {
 }
 
 function getPants() {
-    let pantsNumber = getRandomInt(0,shirtsArray.length);
+    let pantsNumber = getRandomInt(0,pantsArray.length);
 
     let image = document.getElementById("image2");
  
