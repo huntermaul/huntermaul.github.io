@@ -4,6 +4,9 @@ const pantsButton = document.querySelector('.new-pants');
 pantsButton.addEventListener('click', getPants);
 const shoesButton = document.querySelector('.new-shoes');
 shoesButton.addEventListener('click', getShoes);
+const shuffleButton = document.querySelector('.shuffle');
+shuffleButton.addEventListener('click', shuffle);
+
 
 var shirtsArray = ["./img/shirts/shirt1.png","./img/shirts/shirt2.png","./img/shirts/shirt3.png",
 "./img/shirts/shirt4.png","./img/shirts/shirt5.png","./img/shirts/shirt6.png","./img/shirts/shirt7.png",
@@ -52,3 +55,5 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
 }
+
+shuffle();
